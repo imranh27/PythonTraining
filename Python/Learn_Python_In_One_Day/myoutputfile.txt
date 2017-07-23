@@ -1,0 +1,9 @@
+Learn Python in one Day and Learn it well
+Python for Beginners with Hands-on Project
+The only book you need to start programming Python immediately
+http://www.learncodingfast.com/python
+
+This sentence will be appended.
+Python is fun!
+This sentence will be appended.
+Python is fun!
