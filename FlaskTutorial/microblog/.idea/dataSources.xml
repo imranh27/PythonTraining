@@ -4,6 +4,7 @@
     <data-source source="LOCAL" name="app.db" uuid="0e29cdb1-6b53-4c2d-b06c-df617c7507a1">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
+      <remarks>Localdb</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/app.db</jdbc-url>
       <driver-properties>
