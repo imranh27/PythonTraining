@@ -1,0 +1,24 @@
+2018-03-26 08:28:50,216 INFO: Microblog startup [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/app/__init__.py:34]
+2018-03-26 08:29:09,573 ERROR: Exception on /edit_profile [POST] [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2018-03-26 20:26:55,322 INFO: Microblog startup [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/app/__init__.py:34]
+2018-03-26 20:27:13,043 ERROR: Exception on /edit_profile [POST] [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
