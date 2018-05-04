@@ -58,3 +58,6 @@ Traceback (most recent call last):
     posts = Post.query.order_by(Post.timestamp.desc()).paginate(page, app.config['POSTS_PER_PAGE', False])
 KeyError: ('POSTS_PER_PAGE', False)
 2018-04-21 11:35:04,081 INFO: Microblog startup [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/app/__init__.py:33]
+2018-04-30 18:58:27,145 INFO: Microblog startup [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/app/__init__.py:33]
+2018-05-01 18:28:55,588 INFO: Microblog startup [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/app/__init__.py:34]
+2018-05-01 18:30:10,684 INFO: Microblog startup [in /Users/imranh/Documents/Programming/PythonTraining/FlaskTutorial/microblog/app/__init__.py:34]
